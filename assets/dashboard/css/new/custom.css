@@ -1,0 +1,71 @@
+/*custom bootstap 3.3.5*/
+
+/*Custom bootstrap datetimepcker*/
+
+
+.bootstrap-datetimepicker-widget.dropdown-menu {
+  /*background-color: #30363b;*/
+  border-color: #2b3135;
+  /*width: 100%;*/
+}
+
+.bootstrap-datetimepicker-widget.dropdown-menu:after,
+.bootstrap-datetimepicker-widget.dropdown-menu:before {
+  display: none !important;
+}
+
+.bootstrap-datetimepicker-widget.dropdown-menu a span:hover,
+.bootstrap-datetimepicker-widget.dropdown-menu a span:focus {
+  background-color: #32aa62 !important;
+  color: #fff !important;
+}
+
+.bootstrap-datetimepicker-widget 
+{
+     color: #656565;
+}
+
+.form-control.form-filter{
+	/*background-color: rgba(255, 255, 255, 0.3);*/
+	background-color: #9c27b0;
+	padding: 10px 25px 10px 25px;
+	/*color: #fff;*/
+	/*border: 2px solid #00bcd4;*/
+	border-radius: 30px;
+	height: 42px;
+	color: #fff;
+	margin-top: 30px;
+	border-bottom: none !important;
+	background-image: none;
+}
+
+.selectpicker.select-filter{
+	background-color: rgba(255, 255, 255, 0.3) !important;
+	color: #000;
+}
+
+.btn.btn-transparent{
+	background-color: rgba(255, 255, 255, 0.3);
+}
+
+.card [data-background-color] a {
+  color: #000;
+}
+
+.btn-group.open > .dropdown-toggle.btn, .btn-group.open > .dropdown-toggle.btn.btn-default,
+.btn-group-vertical.open > .dropdown-toggle.btn,
+.btn-group-vertical.open > .dropdown-toggle.btn.btn-default {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.wd-150{
+	width: 150px;
+}
+
+.card-avatar .pp-left{
+	margin: auto -50px 0;
+}
+
+.custom-title {
+	margin: 6px 0 0px !important;
+}
